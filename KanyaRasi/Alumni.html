@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+ <html lan="en">
+   <head>
+      <title>ALUMNI REGISTRATION</title>
+      <link rel="stylesheet" href="CSS.CSS">
+  </head>
+    
+         <body style="color:antiquewhite ;font-family: 'Courier New', Courier, monospace; background-image: url(apply-bg.jpg);">
+            <div class="navbar">
+               <a href="home.html" style=" color: aliceblue;font-family:comic sans ms bold;" target="_parent">Home</a>
+               <a href="">Campus</a>
+                 <div class="dropdown">
+                     <button class="dropbtn">Login 
+                         <i class="fa fa-caret-down"></i>
+                     </button>
+                     <div class="dropdown-content">
+                         <a href="login.html" style=" color: rgb(0, 2, 3);font-family:comic sans ms bold;" target="_blank">Student</a>
+                         <a href="adminlogin.html" style=" color: rgb(0, 1, 2);font-family:comic sans ms bold;" target="_blank">Faculty</a>
+                     </div>
+                 </div>    
+                 <div class="dropdown">
+                     <button class="dropbtn">Registration 
+                       <i class="fa fa-caret-down"></i>
+                     </button>
+                     <div class="dropdown-content">
+                         <a href="registrationform.html" style=" color: rgb(0, 4, 7);font-family:comic sans ms bold;" target="_blank">Student</a>
+                         <a href="registrationform.html" style=" color: rgb(0, 3, 5);font-family:comic sans ms bold;" target="_blank">Faculty</a>
+                         <a href="registrationform.html" style=" color: rgb(0, 3, 5);font-family:comic sans ms bold;" target="_blank">Alumni</a>
+                     </div>
+                 </div>    
+                 <a href="#Placements" style=" color: rgb(248, 250, 252);font-family:comic sans ms bold;" target="_blank">Placements</a>
+                 <a href="#Alumni" style=" color: rgb(246, 249, 252);font-family:comic sans ms bold;" target="_blank">Alumni</a>    
+                 <div class="dropdown">
+                     <button class="dropbtn">Feedback 
+                         <i class="fa fa-caret-down"></i>
+                     </button>
+                     <div class="dropdown-content">
+                         <a href="#Feedback" style=" color: rgb(0, 5, 8);font-family:comic sans ms bold;" target="_blank">Student</a>
+                         <a href="#Faculty" style=" color: rgb(0, 4, 7);font-family:comic sans ms bold;" target="_blank">Faculty</a>
+                         <a href="#Recuiters" style=" color: rgb(0, 5, 8);font-family:comic sans ms bold;" target="_blank">Recruiters</a>
+                     </div>
+                 </div> 
+             </div><br>  
+             <center>
+         <form>
+             <h1 align="center"><u style="color: rgb(247, 252, 253);">ALUMNI REGISTRATION</u></h1>
+             <hr>
+             <label>NAME:</label>
+             <input type="text"><br><br>
+             <label>Gender: </label>
+             <label>
+               <input type="radio" name="gender" id="male"> Male 
+                 <input type="radio" name="gender" id="female">Female 
+                <input type="radio" name="gender" id="Others">     custom    
+             </label><br><br>
+             <label>Date of Birth: <input type="date" name="exp_date" id="exp_date"></label><br><br>
+             <label>Phone Number: <input type="number" name="phone number" id="phone number" required></label><br><br>
+             <label>Address: <textarea name="address" id="address" cols="25" rows="1" ></textarea></label><br><br>
+             <label>Email:<input type="password" name="password" value=""><br><br>
+             <label>Pincode: <input type="number" name="pincode" id="pincode" required></label><br><br>
+             <label>Passing Year:<input type="date" name="pass_date" id="pass_date"></label><br><br>
+             <label>DEPARTMENT:
+                <select name="DEPARTMENT" id="DEPARTMENT">
+                    <option value="">---SELECT DEPARTMENT---</option>
+                    <option value="COMPUTER SCIENCE and ENGINEERING">COMPUTER SCIENCE and ENGINEERING</option>
+                   <option value="ELECTRONICS AND COMMUNICATION ENGINEERING">ELECTRONICS AND COMMUNICATION ENGINEERING</option>
+                   <option value="MECHANICAL ENGINEERING">MECHANICAL ENGINEERING</option>
+                   <option value="CIVIL ENGINEERING">CIVIL ENGINEERING</option>
+                   <option value="INFORMATION TECHNOLOGY">INFORMATION TECHNOLOGY</option>
+                   <option value="CIVIL ENGINEERING">MECHANICAL ENGINEERING</option>
+                </select>
+             </label><br><br>
+             <label>COURSE:
+                <select name="COURSE" id="COURSE">
+                    <option value="">---SELECT A COURSE---</option>
+                    <option value="Artificial Intelligence">Artificial Intelligence</option>
+                   <option value="Data Science">Data Science</option>
+                   <option value="Web Development">Web Development</option>
+                   <option value="Architecture">Architecture</option>
+                   <option value="Signals and Systems">Signals and Systems</option>
+                   <option value="Internet of Things">Internet of Things</option>
+                </select>
+             </label><br><br>
+             <input type="submit" value="Submit"><br><br>
+        </form>
+        </center>
+     </body>
+ </html>

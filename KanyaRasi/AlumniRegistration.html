@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Alumnni Registration</title>
+        <link rel="stylesheet" href="CSS.css">
+        <style>
+            label{
+                color: black;
+            }
+            p{
+                color: rgb(3, 5, 7);
+            }
+            th,td{
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body style="font-family:comic sans ms ;background-image: url(pinkgreen.jpg);">
+        <section>
+            <div class="navbar" style="background-color: blanchedalmond;">
+                <a href="home.html" style=" color: rgb(1, 6, 10);font-family:comic sans ms bold;" target="_parent">Home</a>
+                <a href="Campus.html">Campus</a>
+                  <div class="dropdown">
+                      <button class="dropbtn">Login 
+                          <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                          <a href="login.html" style=" color: rgb(0, 2, 3);font-family:comic sans ms bold;" target="_blank">Student</a>
+                          <a href="adminlogin.html" style=" color: rgb(0, 1, 2);font-family:comic sans ms bold;" target="_blank">Faculty</a>
+                      </div>
+                  </div>    
+                  <div class="dropdown">
+                      <button class="dropbtn">Registration 
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                          <a href="registrationform.html" style=" color: rgb(0, 4, 7);font-family:comic sans ms bold;" target="_blank">Student</a>
+                          <a href="FacultyRegistration.html" style=" color: rgb(0, 3, 5);font-family:comic sans ms bold;" target="_blank">Faculty</a>
+                          <a href="AlumniRegistration.html" style=" color: rgb(0, 3, 5);font-family:comic sans ms bold;" target="_blank">Alumni</a>
+                      </div>
+                  </div>    
+                  <a href="#" style=" color: rgb(11, 12, 12);font-family:comic sans ms bold;" target="_blank">Placements</a>
+                  <a href="alumni_talks.html" style=" color: rgb(5, 5, 5);font-family:comic sans ms bold;" target="_blank">Alumni</a>    
+                  <div class="dropdown">
+                      <button class="dropbtn">Feedback 
+                          <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                          <a href="studentfd.html" style=" color: rgb(0, 5, 8);font-family:comic sans ms bold;" target="_blank">Student</a>
+                          <a href="Faculty.html" style=" color: rgb(0, 4, 7);font-family:comic sans ms bold;" target="_blank">Faculty</a>
+                          <a href="Recuiters.html" style=" color: rgb(0, 5, 8);font-family:comic sans ms bold;" target="_blank">Recruiters</a>
+                      </div>
+                  </div> 
+              </div>
+        </section><hr>
+        <fieldset align="center">
+            <legend><strong style="text-align: center;font-family: comic sans ms bold;color:rgb(179, 129, 24);font-size: larger;"><u>ALUMNI</u> <u>REGISTRATION</u> <u>FORM</u></strong></legend>
+            <center><form style="font-size: larger;"><table>
+                <tr>
+                    <td><label>Reg No:</label>
+                    <input type="number" value="number"></td>
+                </tr>
+                <tr><td><label>Year of Joining:</label>
+                    <input type="date"></td>
+                </tr>
+                <tr><td><label>Branch:</label>
+                    <input type="text" ></td>
+                </tr>
+                <tr><td><label>DOB:</label>
+                    <input type="date"  value="date"></td>
+                </tr>
+                <tr>
+                    <td><label>First Name:</label>
+                    <input type="text" ></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name:</label>
+                        <input type="text"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><label>GENDER:</label>
+                        <input type="radio" value="male" id="male" >MALE
+                        <input type="radio" value="female" id="female">FEMALE</p>
+                    </td>
+                </tr>
+                <tr><td><label>EMAIL:</label>
+                    <input type="text"></td>
+                </tr>
+                <tr><td><label>PHONE NUMBER:</label>
+                    <input type="number"></td>
+                </tr>
+                <tr>
+                    <td><label>Address:</label>
+                    <textarea type="text"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Present Company:</label>
+                    <input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Current Position:</label>
+                    <input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Certificate:</label>
+                    <input type="file"></td>
+                </tr>
+            </table><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="clear"><br>
+            </form></center>
+        </fieldset>
+    </body>
+</html>
